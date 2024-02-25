@@ -1,0 +1,73 @@
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:100px;
+  font-style: normal;
+}
+h1 {
+    text-align: center;
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    background: url(https://funik.ru/wp-content/uploads/2018/10/83d8a824da15c33acedf.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px black;
+
+}
+  header .Menu {
+    font-size: 200px;
+    font-weight: 900px;
+    color: black;
+    transition: 5s;
+}
+ nav ul li {
+    position: relative;
+    float: left;
+}
+ nav ul li a{
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    display: block;
+}
+nav ul li a:hover {
+    background: rgba(44, 44, 44, 0.747);
+    color: rgb(255, 255, 255);
+    width: 72%;
+}
+nav ul li ul{
+    position:absolute;
+    left: 0;
+    background: white;
+    width: 180px;
+    display: none;
+}
+nav ul li ul li {
+    width: 100%;
+    right: 0px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    
+}
+nav ul li:hover > ul{
+    display: initial;
+}
