@@ -17,7 +17,6 @@ body {
   }
   body {
       height: 100vh;
-      background: url(https://funik.ru/wp-content/uploads/2018/10/83d8a824da15c33acedf.jpg) no-repeat;
       background-size: cover;
       background-position: center;
   }
@@ -25,7 +24,7 @@ body {
       position: fixed;
       top: 0;
       left: 0;
-      
+      right: 0;
       background: rgb(255, 255, 255);
       display: flex;
       justify-content: space-between;

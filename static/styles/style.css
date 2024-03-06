@@ -55,7 +55,7 @@ header {
 nav ul li a:hover {
     background: rgba(44, 44, 44, 0.747);
     color: rgb(255, 255, 255);
-    width: 72%;
+    width: 80%;
 }
 nav ul li ul{
     position:absolute;
@@ -90,6 +90,7 @@ nav ul li:hover > ul{
 {
     .TeoLine{
         margin-top: 100px;
+   
      }
 }
 @media(max-width: 641px)
@@ -102,6 +103,13 @@ nav ul li:hover > ul{
 {
     .TeoLine{
         margin-top: 278px;
+        
+     }
+}
+@media(max-width: 1920px)
+{
+    .TeoLine{
+        margin-top: 10px;
      }
 }
 .OGE{
