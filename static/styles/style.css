@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8%;
+    padding: 0 6%;
     box-shadow: 0 5px 10px rgb(112, 111, 111);
 }
   header .Menu {
@@ -82,33 +82,73 @@ nav ul li:hover > ul{
 .Teo21-30{
     z-index: 1;
 }
+@media(max-width: 1920px){
+    .TeoLine{
+        margin-top: 153px;
+     }
+     nav ul li a{
+        font-size: 16px;
+     }
+     .OGE{
+        font-size: 30px;
+    }
+}
 @media(max-width: 1145px){
     .TeoLine{
         margin-top: 153px;
      }
-     header{
-        font-size: 130px;
+     nav ul li a{
+        font-size: 14px;
      }
+     .OGE{
+        font-size: 25px;
+    }
+}
+@media(max-width: 973px){
+    .TeoLine{
+        margin-top: 153px;
+     }
+     nav ul li a{
+        font-size: 9px;
+     }
+     .OGE{
+        font-size: 14px;
+    }
 }
 @media(max-width: 641px){
     .TeoLine{
         margin-top: 155px;
      }
-   
+     nav ul li a{
+        font-size: 10px;
+     }
+     .OGE{
+        font-size: 16px;
+    }
 }
 @media(max-width: 631px){
     .TeoLine{
         margin-top: 350px;
         
      }
-     
+     nav ul li a{
+        font-size: 9px;
+     }
+     .OGE{
+        font-size: 20px;
+    }
 }
-@media(max-width: 163px){
+@media(max-width: 542px){
     .TeoLine{
         margin-top: 500px;
         
      }
-    
+     nav ul li a{
+        font-size: 7px;
+     }
+     .OGE{
+        font-size: 20px;
+    }
 }
 
 .OGE{
@@ -123,4 +163,7 @@ h1{
 .Line{
     font-size: 30px;
     color:black;
+}
+header li {
+    font-size: 5px;
 }
