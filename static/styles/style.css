@@ -84,28 +84,28 @@ nav ul li:hover > ul{
 }
 @media(max-width: 1145px){
     .TeoLine{
-        margin-top: 73px;
+        margin-top: 153px;
      }
      header{
-        font-size: 50px;
+        font-size: 130px;
      }
 }
 @media(max-width: 641px){
     .TeoLine{
-        margin-top: 75px;
+        margin-top: 155px;
      }
    
 }
 @media(max-width: 631px){
     .TeoLine{
-        margin-top: 75px;
+        margin-top: 350px;
         
      }
      
 }
 @media(max-width: 163px){
     .TeoLine{
-        margin-top: 420px;
+        margin-top: 500px;
         
      }
     
@@ -119,4 +119,8 @@ p{
 }
 h1{
     font-size: 35px;
+}
+.Line{
+    font-size: 30px;
+    color:black;
 }
