@@ -140,14 +140,14 @@ nav ul li:hover > ul{
 }
 @media(max-width: 542px){
     .TeoLine{
-        margin-top: 500px;
+        margin-top: 70px;
         
      }
      nav ul li a{
-        font-size: 7px;
+        font-size: 5px;
      }
      .OGE{
-        font-size: 20px;
+        font-size: 9px;
     }
 }
 
