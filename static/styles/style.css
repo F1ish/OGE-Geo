@@ -152,7 +152,7 @@ nav ul li:hover > ul{
 }
 @media(max-width: 380px){
     .TeoLine{
-        margin-top: 90px;
+        margin-top: 70px;
         
      }
      nav ul li a{
@@ -160,6 +160,18 @@ nav ul li:hover > ul{
      }
      .OGE{
         font-size: 12px;
+    }
+}
+@media(max-width: 320px){
+    .TeoLine{
+        margin-top: 50px;
+        
+     }
+     nav ul li a{
+        font-size: 9px;
+     }
+     .OGE{
+        font-size: 8px;
     }
 }
 
@@ -177,9 +189,10 @@ h1{
     font-size: 30px;
     color:black;
 }
-header li {
-    font-size: 5px;
-}
+
 .Map{
-    width: 50%;
+    width: 100%;
     }
+.MapOther{
+    width: 100%;
+}
