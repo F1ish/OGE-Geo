@@ -92,6 +92,7 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 25px;
     }
+    
 }
 @media(max-width: 1145px){
     .TeoLine{
@@ -103,6 +104,7 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 25px;
     }
+   
 }
 @media(max-width: 1004px){
     .TeoLine{
@@ -114,6 +116,10 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 19px;
     }
+    .Map{
+        width: 100%;
+        }
+    
 }
 @media(max-width: 766px){
     .TeoLine{
@@ -125,6 +131,10 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 21px;
     }
+    .Map{
+        width: 100%;
+        }
+    
 }
 @media(max-width: 715px){
     .TeoLine{
@@ -137,6 +147,10 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 21px;
     }
+    .Map{
+        width: 100%;
+        }
+    
 }
 @media(max-width: 542px){
     .TeoLine{
@@ -149,6 +163,10 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 14px;
     }
+    .Map{
+        width: 100%;
+        }
+    
 }
 @media(max-width: 413px){
     .TeoLine{
@@ -161,6 +179,10 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 12px;
     }
+    .Map{
+        width: 100%;
+        }
+    
 }
 @media(max-width: 365px){
     .TeoLine{
@@ -173,6 +195,10 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 8px;
     }
+    .Map{
+        width: 100%;
+        }
+    
 }
 @media(max-width: 320px){
     .TeoLine{
@@ -185,6 +211,10 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 7px;
     }
+    .Map{
+        width: 100%;
+        }
+    
 }
 @media(max-width: 295px){
     .TeoLine{
@@ -197,6 +227,10 @@ nav ul li:hover > ul{
      .OGE{
         font-size: 5px;
     }
+    .Map{
+        width: 100%;
+        }
+    
 }
 .OGE{
     color:black;
@@ -213,9 +247,4 @@ h1{
     color:black;
 }
 
-.Map{
-    width: 100%;
-    }
-.MapOther{
-    width: 100%;
-}
+
