@@ -115,9 +115,9 @@ nav ul li:hover > ul{
         font-size: 19px;
     }
 }
-@media(max-width: 641px){
+@media(max-width: 766px){
     .TeoLine{
-        margin-top: 155px;
+        margin-top: 20px;
      }
      nav ul li a{
         font-size: 13px;
@@ -126,9 +126,9 @@ nav ul li:hover > ul{
         font-size: 21px;
     }
 }
-@media(max-width: 631px){
+@media(max-width: 715px){
     .TeoLine{
-        margin-top: 100px;
+        margin-top: 80px;
         
      }
      nav ul li a{
@@ -150,7 +150,7 @@ nav ul li:hover > ul{
         font-size: 14px;
     }
 }
-@media(max-width: 380px){
+@media(max-width: 413px){
     .TeoLine{
         margin-top: 70px;
         
@@ -162,7 +162,7 @@ nav ul li:hover > ul{
         font-size: 12px;
     }
 }
-@media(max-width: 320px){
+@media(max-width: 365px){
     .TeoLine{
         margin-top: 50px;
         
@@ -174,7 +174,30 @@ nav ul li:hover > ul{
         font-size: 8px;
     }
 }
-
+@media(max-width: 320px){
+    .TeoLine{
+        margin-top: 50px;
+        
+     }
+     nav ul li a{
+        font-size: 8px;
+     }
+     .OGE{
+        font-size: 7px;
+    }
+}
+@media(max-width: 295px){
+    .TeoLine{
+        margin-top: 50px;
+        
+     }
+     nav ul li a{
+        font-size: 6px;
+     }
+     .OGE{
+        font-size: 5px;
+    }
+}
 .OGE{
     color:black;
     font-weight: bold;
